@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Threading.Channels" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PurpleTechnology.Watchdog.Abstractions\PurpleTechnology.Watchdog.Abstractions.csproj" />
     <ProjectReference Include="..\PurpleTechnology.Watchdog.Config\PurpleTechnology.Watchdog.Config.csproj" />
   </ItemGroup>
